@@ -1,0 +1,19 @@
+
+
+.contact_us {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.contact_us h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 80%;
+  line-height: 72px;
+  width: 315px;
+
+}
+
+.contact_us p {
+  font-weight: 500;
+}
+

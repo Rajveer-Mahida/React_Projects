@@ -51,7 +51,7 @@ function App() {
             ))
           )}
         </div>
-        < Model setOpen={onOpen}  isClose = {onClose} className="mt-4"/ >
+      
      
      
     </>

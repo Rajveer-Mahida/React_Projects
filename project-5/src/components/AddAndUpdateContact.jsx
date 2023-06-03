@@ -1,12 +1,19 @@
-import React from 'react'
-
-const AddAndUpdateContact = ({isOpen,onOpen}) => {
+import { Form, Formik,Field } from 'formik'
+import Model from './Model'
+const AddAndUpdateContact = ({ onClose, isOpen, children }) => {
   return (
     <div>
-      <Model setOpen={onOpen}  isClose = {onClose} className="mt-4">
-            Hi
+      <Model  className="mt-4 ">
+      <Formik>
+          <Form>
+              <label htmlFor="name">Name </label>
+              <Field name="name" id="name" />
+          </Form>
+        </Formik>
         </Model>
-
+      <div>
+     
+      </div>
     </div>
   )
 }
